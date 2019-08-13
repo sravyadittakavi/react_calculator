@@ -5,7 +5,7 @@ constructor(props){
     super(props);
 }
 render(){
-    return(<div><label className="Result-label">Result</label></div>);
+    return(<div><p className="Result-label">{this.props.result}</p></div>);
 }
 }
 
